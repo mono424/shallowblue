@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - shallowblue (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - shallowblue (from `.symlinks/plugins/shallowblue/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  shallowblue:
+    :path: ".symlinks/plugins/shallowblue/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  integration_test: 6eb66a19f7104200dcfdd62bc0077e1b09686e4f
+  shallowblue: f7d536782b98e9ad48ab89804c72511fa6f7d95b
+
+PODFILE CHECKSUM: 404329f9e57f2312cf77d2c31c47d9fa68535da8
+
+COCOAPODS: 1.10.1

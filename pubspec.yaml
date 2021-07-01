@@ -1,0 +1,26 @@
+name: shallowblue
+description: ShallowBlue Chess Engine.
+version: 0.0.1
+author: Khadim Fall
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.0.0"
+
+dependencies:
+  ffi: ^1.0.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: im.khad.shallowblue
+        pluginClass: ShallowBluePlugin
+      ios:
+        pluginClass: ShallowBluePlugin
